@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FFB3ED17-C986-3716-BE4D-02BBBF56209B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>Dawnbreaker</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Code\code\CS100\CS100-HW89\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Dawnbreaker.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Dawnbreaker</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Code\code\CS100\CS100-HW89\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Dawnbreaker.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Dawnbreaker</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Code\code\CS100\CS100-HW89\build\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Dawnbreaker.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Dawnbreaker</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Code\code\CS100\CS100-HW89\build\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Dawnbreaker.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Dawnbreaker</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Code\code\CS100\CS100-HW89\src;E:\Code\code\CS100\CS100-HW89\src\ProvidedFramework;E:\Code\code\CS100\CS100-HW89\src\PartForYou;E:\Code\code\CS100\CS100-HW89\src\Goodie;E:\Code\code\CS100\CS100-HW89\src\Ship;E:\Code\code\CS100\CS100-HW89\src\Projectile;E:\Code\code\CS100\CS100-HW89\src\Others;E:\Code\code\CS100\CS100-HW89\third_party\freeglut\include;E:\Code\code\CS100\CS100-HW89\third_party\SOIL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Code\code\CS100\CS100-HW89\src;E:\Code\code\CS100\CS100-HW89\src\ProvidedFramework;E:\Code\code\CS100\CS100-HW89\src\PartForYou;E:\Code\code\CS100\CS100-HW89\src\Goodie;E:\Code\code\CS100\CS100-HW89\src\Ship;E:\Code\code\CS100\CS100-HW89\src\Projectile;E:\Code\code\CS100\CS100-HW89\src\Others;E:\Code\code\CS100\CS100-HW89\third_party\freeglut\include;E:\Code\code\CS100\CS100-HW89\third_party\SOIL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Code\code\CS100\CS100-HW89\src;E:\Code\code\CS100\CS100-HW89\src\ProvidedFramework;E:\Code\code\CS100\CS100-HW89\src\PartForYou;E:\Code\code\CS100\CS100-HW89\src\Goodie;E:\Code\code\CS100\CS100-HW89\src\Ship;E:\Code\code\CS100\CS100-HW89\src\Projectile;E:\Code\code\CS100\CS100-HW89\src\Others;E:\Code\code\CS100\CS100-HW89\third_party\freeglut\include;E:\Code\code\CS100\CS100-HW89\third_party\SOIL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>lib\Debug\ProvidedFramework.lib;lib\Debug\PartForYou.lib;lib\Debug\Goodie.lib;lib\Debug\Ship.lib;lib\Debug\Projectile.lib;lib\Debug\Others.lib;lib\Debug\ProvidedFramework.lib;lib\Debug\freeglut.lib;opengl32.lib;winmm.lib;lib\Debug\SOIL.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Code/code/CS100/CS100-HW89/build/lib/Debug/Dawnbreaker.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Code/code/CS100/CS100-HW89/build/bin/Debug/Dawnbreaker.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Code\code\CS100\CS100-HW89\src;E:\Code\code\CS100\CS100-HW89\src\ProvidedFramework;E:\Code\code\CS100\CS100-HW89\src\PartForYou;E:\Code\code\CS100\CS100-HW89\src\Goodie;E:\Code\code\CS100\CS100-HW89\src\Ship;E:\Code\code\CS100\CS100-HW89\src\Projectile;E:\Code\code\CS100\CS100-HW89\src\Others;E:\Code\code\CS100\CS100-HW89\third_party\freeglut\include;E:\Code\code\CS100\CS100-HW89\third_party\SOIL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Code\code\CS100\CS100-HW89\src;E:\Code\code\CS100\CS100-HW89\src\ProvidedFramework;E:\Code\code\CS100\CS100-HW89\src\PartForYou;E:\Code\code\CS100\CS100-HW89\src\Goodie;E:\Code\code\CS100\CS100-HW89\src\Ship;E:\Code\code\CS100\CS100-HW89\src\Projectile;E:\Code\code\CS100\CS100-HW89\src\Others;E:\Code\code\CS100\CS100-HW89\third_party\freeglut\include;E:\Code\code\CS100\CS100-HW89\third_party\SOIL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Code\code\CS100\CS100-HW89\src;E:\Code\code\CS100\CS100-HW89\src\ProvidedFramework;E:\Code\code\CS100\CS100-HW89\src\PartForYou;E:\Code\code\CS100\CS100-HW89\src\Goodie;E:\Code\code\CS100\CS100-HW89\src\Ship;E:\Code\code\CS100\CS100-HW89\src\Projectile;E:\Code\code\CS100\CS100-HW89\src\Others;E:\Code\code\CS100\CS100-HW89\third_party\freeglut\include;E:\Code\code\CS100\CS100-HW89\third_party\SOIL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>lib\Release\ProvidedFramework.lib;lib\Release\PartForYou.lib;lib\Release\Goodie.lib;lib\Release\Ship.lib;lib\Release\Projectile.lib;lib\Release\Others.lib;lib\Release\ProvidedFramework.lib;lib\Release\freeglut.lib;opengl32.lib;winmm.lib;lib\Release\SOIL.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Code/code/CS100/CS100-HW89/build/lib/Release/Dawnbreaker.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Code/code/CS100/CS100-HW89/build/bin/Release/Dawnbreaker.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Code\code\CS100\CS100-HW89\src;E:\Code\code\CS100\CS100-HW89\src\ProvidedFramework;E:\Code\code\CS100\CS100-HW89\src\PartForYou;E:\Code\code\CS100\CS100-HW89\src\Goodie;E:\Code\code\CS100\CS100-HW89\src\Ship;E:\Code\code\CS100\CS100-HW89\src\Projectile;E:\Code\code\CS100\CS100-HW89\src\Others;E:\Code\code\CS100\CS100-HW89\third_party\freeglut\include;E:\Code\code\CS100\CS100-HW89\third_party\SOIL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Code\code\CS100\CS100-HW89\src;E:\Code\code\CS100\CS100-HW89\src\ProvidedFramework;E:\Code\code\CS100\CS100-HW89\src\PartForYou;E:\Code\code\CS100\CS100-HW89\src\Goodie;E:\Code\code\CS100\CS100-HW89\src\Ship;E:\Code\code\CS100\CS100-HW89\src\Projectile;E:\Code\code\CS100\CS100-HW89\src\Others;E:\Code\code\CS100\CS100-HW89\third_party\freeglut\include;E:\Code\code\CS100\CS100-HW89\third_party\SOIL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Code\code\CS100\CS100-HW89\src;E:\Code\code\CS100\CS100-HW89\src\ProvidedFramework;E:\Code\code\CS100\CS100-HW89\src\PartForYou;E:\Code\code\CS100\CS100-HW89\src\Goodie;E:\Code\code\CS100\CS100-HW89\src\Ship;E:\Code\code\CS100\CS100-HW89\src\Projectile;E:\Code\code\CS100\CS100-HW89\src\Others;E:\Code\code\CS100\CS100-HW89\third_party\freeglut\include;E:\Code\code\CS100\CS100-HW89\third_party\SOIL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>lib\MinSizeRel\ProvidedFramework.lib;lib\MinSizeRel\PartForYou.lib;lib\MinSizeRel\Goodie.lib;lib\MinSizeRel\Ship.lib;lib\MinSizeRel\Projectile.lib;lib\MinSizeRel\Others.lib;lib\MinSizeRel\ProvidedFramework.lib;lib\MinSizeRel\freeglut.lib;opengl32.lib;winmm.lib;lib\MinSizeRel\SOIL.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Code/code/CS100/CS100-HW89/build/lib/MinSizeRel/Dawnbreaker.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Code/code/CS100/CS100-HW89/build/bin/MinSizeRel/Dawnbreaker.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Code\code\CS100\CS100-HW89\src;E:\Code\code\CS100\CS100-HW89\src\ProvidedFramework;E:\Code\code\CS100\CS100-HW89\src\PartForYou;E:\Code\code\CS100\CS100-HW89\src\Goodie;E:\Code\code\CS100\CS100-HW89\src\Ship;E:\Code\code\CS100\CS100-HW89\src\Projectile;E:\Code\code\CS100\CS100-HW89\src\Others;E:\Code\code\CS100\CS100-HW89\third_party\freeglut\include;E:\Code\code\CS100\CS100-HW89\third_party\SOIL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Code\code\CS100\CS100-HW89\src;E:\Code\code\CS100\CS100-HW89\src\ProvidedFramework;E:\Code\code\CS100\CS100-HW89\src\PartForYou;E:\Code\code\CS100\CS100-HW89\src\Goodie;E:\Code\code\CS100\CS100-HW89\src\Ship;E:\Code\code\CS100\CS100-HW89\src\Projectile;E:\Code\code\CS100\CS100-HW89\src\Others;E:\Code\code\CS100\CS100-HW89\third_party\freeglut\include;E:\Code\code\CS100\CS100-HW89\third_party\SOIL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Code\code\CS100\CS100-HW89\src;E:\Code\code\CS100\CS100-HW89\src\ProvidedFramework;E:\Code\code\CS100\CS100-HW89\src\PartForYou;E:\Code\code\CS100\CS100-HW89\src\Goodie;E:\Code\code\CS100\CS100-HW89\src\Ship;E:\Code\code\CS100\CS100-HW89\src\Projectile;E:\Code\code\CS100\CS100-HW89\src\Others;E:\Code\code\CS100\CS100-HW89\third_party\freeglut\include;E:\Code\code\CS100\CS100-HW89\third_party\SOIL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>lib\RelWithDebInfo\ProvidedFramework.lib;lib\RelWithDebInfo\PartForYou.lib;lib\RelWithDebInfo\Goodie.lib;lib\RelWithDebInfo\Ship.lib;lib\RelWithDebInfo\Projectile.lib;lib\RelWithDebInfo\Others.lib;lib\RelWithDebInfo\ProvidedFramework.lib;lib\RelWithDebInfo\freeglut.lib;opengl32.lib;winmm.lib;lib\RelWithDebInfo\SOIL.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Code/code/CS100/CS100-HW89/build/lib/RelWithDebInfo/Dawnbreaker.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Code/code/CS100/CS100-HW89/build/bin/RelWithDebInfo/Dawnbreaker.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Code\code\CS100\CS100-HW89\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/Code/code/CS100/CS100-HW89/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Code/code/CS100/CS100-HW89 -BE:/Code/code/CS100/CS100-HW89/build --check-stamp-file E:/Code/code/CS100/CS100-HW89/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;E:\Code\code\CS100\CS100-HW89\build\CMakeFiles\3.23.2\CMakeCCompiler.cmake;E:\Code\code\CS100\CS100-HW89\build\CMakeFiles\3.23.2\CMakeCXXCompiler.cmake;E:\Code\code\CS100\CS100-HW89\build\CMakeFiles\3.23.2\CMakeRCCompiler.cmake;E:\Code\code\CS100\CS100-HW89\build\CMakeFiles\3.23.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Code\code\CS100\CS100-HW89\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/Code/code/CS100/CS100-HW89/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Code/code/CS100/CS100-HW89 -BE:/Code/code/CS100/CS100-HW89/build --check-stamp-file E:/Code/code/CS100/CS100-HW89/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;E:\Code\code\CS100\CS100-HW89\build\CMakeFiles\3.23.2\CMakeCCompiler.cmake;E:\Code\code\CS100\CS100-HW89\build\CMakeFiles\3.23.2\CMakeCXXCompiler.cmake;E:\Code\code\CS100\CS100-HW89\build\CMakeFiles\3.23.2\CMakeRCCompiler.cmake;E:\Code\code\CS100\CS100-HW89\build\CMakeFiles\3.23.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Code\code\CS100\CS100-HW89\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/Code/code/CS100/CS100-HW89/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Code/code/CS100/CS100-HW89 -BE:/Code/code/CS100/CS100-HW89/build --check-stamp-file E:/Code/code/CS100/CS100-HW89/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;E:\Code\code\CS100\CS100-HW89\build\CMakeFiles\3.23.2\CMakeCCompiler.cmake;E:\Code\code\CS100\CS100-HW89\build\CMakeFiles\3.23.2\CMakeCXXCompiler.cmake;E:\Code\code\CS100\CS100-HW89\build\CMakeFiles\3.23.2\CMakeRCCompiler.cmake;E:\Code\code\CS100\CS100-HW89\build\CMakeFiles\3.23.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Code\code\CS100\CS100-HW89\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/Code/code/CS100/CS100-HW89/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Code/code/CS100/CS100-HW89 -BE:/Code/code/CS100/CS100-HW89/build --check-stamp-file E:/Code/code/CS100/CS100-HW89/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;E:\Code\code\CS100\CS100-HW89\build\CMakeFiles\3.23.2\CMakeCCompiler.cmake;E:\Code\code\CS100\CS100-HW89\build\CMakeFiles\3.23.2\CMakeCXXCompiler.cmake;E:\Code\code\CS100\CS100-HW89\build\CMakeFiles\3.23.2\CMakeRCCompiler.cmake;E:\Code\code\CS100\CS100-HW89\build\CMakeFiles\3.23.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Code\code\CS100\CS100-HW89\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\Code\code\CS100\CS100-HW89\src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\Code\code\CS100\CS100-HW89\build\ZERO_CHECK.vcxproj">
+      <Project>{CE34A078-6A8B-30E3-90F7-8FF6BA191F36}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\code\CS100\CS100-HW89\build\Goodie.vcxproj">
+      <Project>{C80D0D00-457F-310E-8D33-D14FD66DBC9F}</Project>
+      <Name>Goodie</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\code\CS100\CS100-HW89\build\Others.vcxproj">
+      <Project>{7999F668-449E-3371-90B9-0A590CB161F1}</Project>
+      <Name>Others</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\code\CS100\CS100-HW89\build\PartForYou.vcxproj">
+      <Project>{FD58D421-C8B8-33ED-A96D-24A9820CB5EE}</Project>
+      <Name>PartForYou</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\code\CS100\CS100-HW89\build\Projectile.vcxproj">
+      <Project>{73671F77-231D-3D97-A979-6F83E97823D4}</Project>
+      <Name>Projectile</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\code\CS100\CS100-HW89\build\ProvidedFramework.vcxproj">
+      <Project>{5B01AF70-BC2F-319F-99B7-85A3E5B29972}</Project>
+      <Name>ProvidedFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\code\CS100\CS100-HW89\build\SOIL\SOIL.vcxproj">
+      <Project>{76774D00-6802-305F-9E78-3899F20A9AAD}</Project>
+      <Name>SOIL</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\code\CS100\CS100-HW89\build\Ship.vcxproj">
+      <Project>{69CDCB44-C3AA-3E6B-B0E6-27F71CAB6B67}</Project>
+      <Name>Ship</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\code\CS100\CS100-HW89\build\freeglut\freeglut.vcxproj">
+      <Project>{D5FEAC6F-C06F-393F-8286-25951CD4B6F2}</Project>
+      <Name>freeglut</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

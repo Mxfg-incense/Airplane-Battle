@@ -1,0 +1,17 @@
+E:/Code/code/CS100/CS100-HW89/build/CMakeFiles/ProvidedFramework.dir
+E:/Code/code/CS100/CS100-HW89/build/CMakeFiles/PartForYou.dir
+E:/Code/code/CS100/CS100-HW89/build/CMakeFiles/Goodie.dir
+E:/Code/code/CS100/CS100-HW89/build/CMakeFiles/Ship.dir
+E:/Code/code/CS100/CS100-HW89/build/CMakeFiles/Projectile.dir
+E:/Code/code/CS100/CS100-HW89/build/CMakeFiles/Others.dir
+E:/Code/code/CS100/CS100-HW89/build/CMakeFiles/Dawnbreaker.dir
+E:/Code/code/CS100/CS100-HW89/build/CMakeFiles/INSTALL.dir
+E:/Code/code/CS100/CS100-HW89/build/CMakeFiles/ALL_BUILD.dir
+E:/Code/code/CS100/CS100-HW89/build/CMakeFiles/ZERO_CHECK.dir
+E:/Code/code/CS100/CS100-HW89/build/SOIL/CMakeFiles/SOIL.dir
+E:/Code/code/CS100/CS100-HW89/build/SOIL/CMakeFiles/INSTALL.dir
+E:/Code/code/CS100/CS100-HW89/build/SOIL/CMakeFiles/ALL_BUILD.dir
+E:/Code/code/CS100/CS100-HW89/build/freeglut/CMakeFiles/freeglut.dir
+E:/Code/code/CS100/CS100-HW89/build/freeglut/CMakeFiles/freeglut_static.dir
+E:/Code/code/CS100/CS100-HW89/build/freeglut/CMakeFiles/INSTALL.dir
+E:/Code/code/CS100/CS100-HW89/build/freeglut/CMakeFiles/ALL_BUILD.dir

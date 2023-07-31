@@ -1,0 +1,10 @@
+^E:\CODE\CODE\CS100\CS100-HW89\THIRD_PARTY\FREEGLUT\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Code/code/CS100/CS100-HW89 -BE:/Code/code/CS100/CS100-HW89/build --check-stamp-file E:/Code/code/CS100/CS100-HW89/build/freeglut/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
